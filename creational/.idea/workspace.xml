@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/simple/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +43,7 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Computer">
-    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.Computer" />
-      <module name="creational" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.creational.builder.simple.Computer">
     <configuration name="ReflectionUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.usingReflectionToDestroySingleton.ReflectionUsing" />
       <module name="creational" />
@@ -97,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.builder.simple.Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.builder.simple.Computer" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.builder.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.singleton.serializationAndSingleton.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.serializationAndSingleton.SingletonObject" />
       <module name="creational" />
@@ -112,7 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Computer" />
+        <item itemvalue="Application.creational.builder.simple.Computer" />
         <item itemvalue="Application.SingletonObject" />
         <item itemvalue="Application.ReflectionUsing" />
         <item itemvalue="Application.SingletonObjectTest" />
@@ -129,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="12581000" />
+      <workItem from="1660297281881" duration="13020000" />
     </task>
     <servers />
   </component>

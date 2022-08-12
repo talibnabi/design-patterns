@@ -1,4 +1,4 @@
-package creational.builder;
+package creational.builder.simple;
 
 public class Computer {
     private final String HDD;
