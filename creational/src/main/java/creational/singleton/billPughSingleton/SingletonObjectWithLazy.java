@@ -1,27 +1,29 @@
 package creational.singleton.billPughSingleton;
 
-public class SingletonObjectWithLazy {
+public final class SingletonObjectWithLazy {
 
     public static class SingletonHelperLazy {
-        private static SingletonHelperLazy INSTANCE;
+        private static SingletonObjectWithLazy INSTANCE;
 
         private SingletonHelperLazy() {
 
         }
 
-        private static SingletonHelperLazy getInstance() {
+        private static SingletonObjectWithLazy getInstance() {
             if (INSTANCE == null) {
-                INSTANCE = new SingletonHelperLazy();
+                INSTANCE = new SingletonObjectWithLazy();
             }
             return INSTANCE;
         }
     }
 
-    public static SingletonHelperLazy getInstance() {
+    public static SingletonObjectWithLazy getInstance() {
         return SingletonHelperLazy.getInstance();
     }
 
     public static void main(String[] args) {
-        
+        SingletonObjectWithLazy singletonObjectWithLazy = SingletonObjectWithLazy.getInstance();
+        SingletonObjectWithLazy singletonObjectWithLazy1 = SingletonObjectWithLazy.getInstance();
+        System.out.println(singletonObjectWithLazy1.hashCode() == singletonObjectWithLazy.hashCode());
     }
 }

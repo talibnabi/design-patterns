@@ -44,7 +44,7 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonObjectWithEager">
+  <component name="RunManager" selected="Application.SingletonObjectWithLazy">
     <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.staticBlockInitialization.SingletonObject" />
       <module name="creational" />
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.singleton.eagerInitialization.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.eagerInitialization.SingletonObject" />
+    <configuration name="SingletonObjectWithLazy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.billPughSingleton.SingletonObjectWithLazy" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.eagerInitialization.*" />
+          <option name="PATTERN" value="creational.singleton.billPughSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonObjectWithLazy" />
         <item itemvalue="Application.SingletonObjectWithEager" />
         <item itemvalue="Application.creational.singleton.threadSafeSingleton.SingletonObject" />
         <item itemvalue="Application.SingletonObject" />
         <item itemvalue="Application.creational.singleton.lazyInitialization.SingletonObject" />
-        <item itemvalue="Application.creational.singleton.eagerInitialization.SingletonObject" />
       </list>
     </recent_temporary>
   </component>
