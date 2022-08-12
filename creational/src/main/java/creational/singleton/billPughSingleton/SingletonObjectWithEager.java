@@ -6,7 +6,7 @@ public final class SingletonObjectWithEager {
 
     }
 
-    public static class SingletonHelperEager {
+    public static final class SingletonHelperEager {
         private static final SingletonObjectWithEager INSTANCE = new SingletonObjectWithEager();
     }
 

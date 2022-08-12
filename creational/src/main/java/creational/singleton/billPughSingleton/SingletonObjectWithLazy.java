@@ -2,7 +2,7 @@ package creational.singleton.billPughSingleton;
 
 public final class SingletonObjectWithLazy {
 
-    public static class SingletonHelperLazy {
+    public static final class SingletonHelperLazy {
         private static SingletonObjectWithLazy INSTANCE;
 
         private SingletonHelperLazy() {
