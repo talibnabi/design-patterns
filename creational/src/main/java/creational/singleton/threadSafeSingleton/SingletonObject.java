@@ -14,13 +14,22 @@ public final class SingletonObject {
         return singletonObject;
     }
 
-    public static SingletonObject getInstanceUsingDoubleLocking(){
-        
+    public static SingletonObject getInstanceUsingDoubleLocking() {
+        if (singletonObject == null) {
+            synchronized (SingletonObject.class) {
+                singletonObject = new SingletonObject();
+            }
+        }
+        return singletonObject;
     }
 
     public static void main(String[] args) {
         SingletonObject singletonObject1 = SingletonObject.getInstance();
         SingletonObject singletonObject2 = SingletonObject.getInstance();
         System.out.println(singletonObject1.hashCode() == singletonObject2.hashCode());
+        System.out.println("*------------------------------------------------------------------------------------*");
+        SingletonObject singletonObject3 = SingletonObject.getInstanceUsingDoubleLocking();
+        SingletonObject singletonObject4 = SingletonObject.getInstanceUsingDoubleLocking();
+        System.out.println(singletonObject3.hashCode() == singletonObject4.hashCode());
     }
 }
