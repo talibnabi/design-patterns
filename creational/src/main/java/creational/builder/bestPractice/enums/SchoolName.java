@@ -2,10 +2,10 @@ package creational.builder.bestPractice.enums;
 
 public enum SchoolName {
     QARAYEV("65"),
-    XALQLAR("87"),
-    SABUNCU("311"),
-    ELMLER("45"),
-    NIZAMI("54");
+    BOZCULAR("87"),
+    DERELEYEZ("311"),
+    PIRQULU("45"),
+    SALAHLI("54");
 
 
     private final String title;
