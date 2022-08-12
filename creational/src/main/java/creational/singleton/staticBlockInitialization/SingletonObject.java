@@ -1,4 +1,4 @@
-package creational.singleton.lazyInitialization;
+package creational.singleton.staticBlockInitialization;
 
 public final class SingletonObject {
     private static SingletonObject singletonObject;
@@ -7,14 +7,19 @@ public final class SingletonObject {
 
     }
 
-    public static SingletonObject getInstance() {
-        if (singletonObject == null) {
+    static {
+        try {
             singletonObject = new SingletonObject();
+        } catch (Exception exception) {
+            throw new RuntimeException("Exception occured in creating singleton instance");
         }
+    }
+
+    public static SingletonObject getInstance() {
         return singletonObject;
     }
 
     public static void main(String[] args) {
-
+        
     }
 }
