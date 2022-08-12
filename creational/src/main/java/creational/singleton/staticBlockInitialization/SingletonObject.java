@@ -22,6 +22,6 @@ public final class SingletonObject {
     public static void main(String[] args) {
         SingletonObject singletonObject1 = SingletonObject.getInstance();
         SingletonObject singletonObject2 = SingletonObject.getInstance();
-        System.out.println(singletonObject1 == singletonObject2);
+        System.out.println(singletonObject1.hashCode() == singletonObject2.hashCode());
     }
 }

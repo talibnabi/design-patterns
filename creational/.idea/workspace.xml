@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/staticBlockInitialization/SingletonObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../behavioural/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../behavioural/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/lazyInitialization/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/lazyInitialization/SingletonObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +70,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.singleton.lazyInitialization.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.lazyInitialization.SingletonObject" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.singleton.lazyInitialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SingletonObject" />
+        <item itemvalue="Application.creational.singleton.lazyInitialization.SingletonObject" />
         <item itemvalue="Application.creational.singleton.eagerInitialization.SingletonObject" />
       </list>
     </recent_temporary>
@@ -89,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="1480000" />
+      <workItem from="1660297281881" duration="1785000" />
     </task>
     <servers />
   </component>
