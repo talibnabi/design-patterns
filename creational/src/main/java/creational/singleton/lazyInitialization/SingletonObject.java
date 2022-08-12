@@ -15,6 +15,6 @@ public final class SingletonObject {
     }
 
     public static void main(String[] args) {
-        
+
     }
 }
