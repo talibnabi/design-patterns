@@ -14,11 +14,14 @@ public final class SingletonObject implements Serializable {
         private static final SingletonObject INSTANCE = new SingletonObject();
     }
 
+    /*
+    The problem with serialized singleton class is that whenever we deserialize it, it will create a new instance of the class.
+    So it destroys the singleton pattern, to overcome this scenario all we need to do it provide the implementation of readResolve() method.
+    * */
     @Serial
-    protected Object readResolve() {
+    private Object readResolve() {
         return getInstance();
     }
-
 
     public static SingletonObject getInstance() {
         return SingletonHelper.INSTANCE;
