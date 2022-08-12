@@ -15,4 +15,5 @@ public class SingletonObjectTest {
         System.out.println(singletonObjectFirst.hashCode());
         System.out.println(singletonObjectSecond.hashCode());
     }
+
 }

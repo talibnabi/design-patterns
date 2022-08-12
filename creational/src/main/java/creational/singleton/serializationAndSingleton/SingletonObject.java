@@ -1,5 +1,6 @@
 package creational.singleton.serializationAndSingleton;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 public final class SingletonObject implements Serializable {
@@ -12,6 +13,12 @@ public final class SingletonObject implements Serializable {
     private static class SingletonHelper {
         private static final SingletonObject INSTANCE = new SingletonObject();
     }
+
+    @Serial
+    protected Object readResolve() {
+        return getInstance();
+    }
+
 
     public static SingletonObject getInstance() {
         return SingletonHelper.INSTANCE;
