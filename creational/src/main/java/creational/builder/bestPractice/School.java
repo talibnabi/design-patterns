@@ -1,10 +1,13 @@
 package creational.builder.bestPractice;
 
+import creational.builder.bestPractice.enums.SchoolLocation;
+import creational.builder.bestPractice.enums.SchoolName;
+
 public final class School {
-    private final String schoolName;
+    private final SchoolName schoolName;
     private final Integer schoolNumber;
     private final Integer schoolAge;
-    private final String schoolLocation;
+    private final SchoolLocation schoolLocation;
 
     public School(SchoolBuilder schoolBuilder) {
         this.schoolName = schoolBuilder.schoolName;
@@ -17,7 +20,7 @@ public final class School {
         return schoolAge;
     }
 
-    public String getSchoolName() {
+    public SchoolName getSchoolName() {
         return schoolName;
     }
 
@@ -25,7 +28,7 @@ public final class School {
         return schoolNumber;
     }
 
-    public String getSchoolLocation() {
+    public SchoolLocation getSchoolLocation() {
         return schoolLocation;
     }
 
@@ -41,12 +44,15 @@ public final class School {
     }
 
     public static final class SchoolBuilder {
-        private final String schoolName;
+        private final SchoolName schoolName;
         private final Integer schoolNumber;
         private Integer schoolAge;
-        private String schoolLocation;
+        private SchoolLocation schoolLocation;
 
-        public SchoolBuilder(String schoolName, Integer schoolNumber) {
+        public SchoolBuilder(SchoolName schoolName, Integer schoolNumber) throws IllegalAccessException {
+            if (schoolName == null) {
+                throw new IllegalAccessException("School name not found.");
+            }
             this.schoolName = schoolName;
             this.schoolNumber = schoolNumber;
         }
@@ -57,7 +63,7 @@ public final class School {
             return this;
         }
 
-        public SchoolBuilder setSchoolLocation(String schoolLocation) {
+        public SchoolBuilder setSchoolLocation(SchoolLocation schoolLocation) {
             this.schoolLocation = schoolLocation;
             return this;
         }
