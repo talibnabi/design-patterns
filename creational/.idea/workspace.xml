@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/billPughSingleton/SingletonObjectWithStaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/billPughSingleton/SingletonObjectWithStaticBlock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonObjectWithLazy">
+  <component name="RunManager" selected="Application.SingletonObjectWithStaticBlock">
     <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.staticBlockInitialization.SingletonObject" />
       <module name="creational" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.singleton.lazyInitialization.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.lazyInitialization.SingletonObject" />
+    <configuration name="SingletonObjectWithStaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.billPughSingleton.SingletonObjectWithStaticBlock" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.lazyInitialization.*" />
+          <option name="PATTERN" value="creational.singleton.billPughSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonObjectWithStaticBlock" />
         <item itemvalue="Application.SingletonObjectWithLazy" />
         <item itemvalue="Application.SingletonObjectWithEager" />
         <item itemvalue="Application.creational.singleton.threadSafeSingleton.SingletonObject" />
         <item itemvalue="Application.SingletonObject" />
-        <item itemvalue="Application.creational.singleton.lazyInitialization.SingletonObject" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="4259000" />
+      <workItem from="1660297281881" duration="6605000" />
     </task>
     <servers />
   </component>
