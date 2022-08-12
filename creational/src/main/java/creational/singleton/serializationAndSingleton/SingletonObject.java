@@ -13,7 +13,7 @@ public final class SingletonObject implements Serializable {
         private static final SingletonObject INSTANCE = new SingletonObject();
     }
 
-    private static SingletonObject getInstance() {
+    public static SingletonObject getInstance() {
         return SingletonHelper.INSTANCE;
     }
 
