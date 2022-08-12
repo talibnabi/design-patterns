@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6280632f-cad0-4b0c-8907-b497c865a624" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/src/main/java/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/src/main/java/singleton/ExampleFirst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creationalPatterns/src/main/java/singleton/ExampleSecond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/creational/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Workspace/designpatterns"
+    "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660294548681</updated>
       <workItem from="1660294563889" duration="599000" />
+      <workItem from="1660297239370" duration="40000" />
     </task>
     <servers />
   </component>
