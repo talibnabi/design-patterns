@@ -41,20 +41,16 @@ public final class School {
     }
 
     public static final class SchoolBuilder {
-        private String schoolName;
-        private Integer schoolNumber;
+        private final String schoolName;
+        private final Integer schoolNumber;
         private Integer schoolAge;
         private String schoolLocation;
 
-        public SchoolBuilder setSchoolName(String schoolName) {
+        public SchoolBuilder(String schoolName, Integer schoolNumber) {
             this.schoolName = schoolName;
-            return this;
+            this.schoolNumber = schoolNumber;
         }
 
-        public SchoolBuilder setSchoolNumber(Integer schoolNumber) {
-            this.schoolNumber = schoolNumber;
-            return this;
-        }
 
         public SchoolBuilder setSchoolAge(Integer schoolAge) {
             this.schoolAge = schoolAge;
