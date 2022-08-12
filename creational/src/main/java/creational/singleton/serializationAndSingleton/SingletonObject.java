@@ -16,4 +16,10 @@ public final class SingletonObject implements Serializable {
     private static SingletonObject getInstance() {
         return SingletonHelper.INSTANCE;
     }
+
+    public static void main(String[] args) {
+        SingletonObject singletonObject = SingletonObject.getInstance();
+        SingletonObject singletonObject1 = SingletonObject.getInstance();
+        System.out.println(singletonObject1.hashCode() == singletonObject.hashCode());
+    }
 }

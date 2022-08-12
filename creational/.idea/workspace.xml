@@ -41,20 +41,7 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonObjectWithStaticBlock">
-    <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.staticBlockInitialization.SingletonObject" />
-      <module name="creational" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singleton.staticBlockInitialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.creational.singleton.serializationAndSingleton.SingletonObject">
     <configuration name="SingletonObjectWithEager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.billPughSingleton.SingletonObjectWithEager" />
       <module name="creational" />
@@ -94,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.singleton.serializationAndSingleton.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.serializationAndSingleton.SingletonObject" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.singleton.serializationAndSingleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.singleton.threadSafeSingleton.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.threadSafeSingleton.SingletonObject" />
       <module name="creational" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.singleton.serializationAndSingleton.SingletonObject" />
         <item itemvalue="Application.SingletonObjectWithStaticBlock" />
         <item itemvalue="Application.SingletonObjectWithLazy" />
         <item itemvalue="Application.SingletonObjectWithEager" />
         <item itemvalue="Application.creational.singleton.threadSafeSingleton.SingletonObject" />
-        <item itemvalue="Application.SingletonObject" />
       </list>
     </recent_temporary>
   </component>
