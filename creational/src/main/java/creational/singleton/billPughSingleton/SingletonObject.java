@@ -10,7 +10,11 @@ public final class SingletonObject {
         private static final SingletonObject INSTANCE = new SingletonObject();
     }
 
-    public static void main(String[] args) {
+    public static SingletonObject getInstance() {
+        return SingletonHelper.INSTANCE;
+    }
 
+    public static void main(String[] args) {
+        
     }
 }
