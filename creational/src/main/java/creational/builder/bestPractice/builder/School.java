@@ -1,4 +1,4 @@
-package creational.builder.bestPractice;
+package creational.builder.bestPractice.builder;
 
 import creational.builder.bestPractice.enums.SchoolLocation;
 import creational.builder.bestPractice.enums.SchoolName;
