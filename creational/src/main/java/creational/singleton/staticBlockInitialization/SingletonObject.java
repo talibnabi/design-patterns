@@ -11,7 +11,7 @@ public final class SingletonObject {
         try {
             singletonObject = new SingletonObject();
         } catch (Exception exception) {
-            throw new RuntimeException("Exception occured in creating singleton instance");
+            throw new RuntimeException("Exception occurred in creating singleton instance");
         }
     }
 
@@ -20,6 +20,8 @@ public final class SingletonObject {
     }
 
     public static void main(String[] args) {
-        
+        SingletonObject singletonObject1 = SingletonObject.getInstance();
+        SingletonObject singletonObject2 = SingletonObject.getInstance();
+        System.out.println(singletonObject1 == singletonObject2);
     }
 }

@@ -46,7 +46,20 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonObject">
+    <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.staticBlockInitialization.SingletonObject" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.singleton.staticBlockInitialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.singleton.eagerInitialization.SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.singleton.eagerInitialization.SingletonObject" />
       <module name="creational" />
@@ -62,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonObject" />
         <item itemvalue="Application.creational.singleton.eagerInitialization.SingletonObject" />
       </list>
     </recent_temporary>
