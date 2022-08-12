@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/enumSingleton/SingletonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/usingReflectionToDestroySingleton/SingletonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/usingReflectionToDestroySingleton/ReflectionUsing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/usingReflectionToDestroySingleton/SingletonObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,13 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SingletonObjectTest">
-    <configuration name="SingletonObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.serializationAndSingleton.SingletonObjectTest" />
+  <component name="RunManager" selected="Application.ReflectionUsing">
+    <configuration name="ReflectionUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.usingReflectionToDestroySingleton.ReflectionUsing" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.serializationAndSingleton.*" />
+          <option name="PATTERN" value="creational.singleton.usingReflectionToDestroySingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonObjectWithEager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.billPughSingleton.SingletonObjectWithEager" />
+    <configuration name="SingletonObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.singleton.serializationAndSingleton.SingletonObjectTest" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singleton.billPughSingleton.*" />
+          <option name="PATTERN" value="creational.singleton.serializationAndSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionUsing" />
         <item itemvalue="Application.SingletonObjectTest" />
         <item itemvalue="Application.creational.singleton.serializationAndSingleton.SingletonObject" />
         <item itemvalue="Application.SingletonObjectWithStaticBlock" />
         <item itemvalue="Application.SingletonObjectWithLazy" />
-        <item itemvalue="Application.SingletonObjectWithEager" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="9387000" />
+      <workItem from="1660297281881" duration="10049000" />
     </task>
     <servers />
   </component>
