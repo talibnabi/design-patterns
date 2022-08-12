@@ -1,4 +1,7 @@
 package creational.factory.bestPractice;
 
-public class BookFactory {
+public final class BookFactory {
+    public static Book getBook(BookType bookType) {
+        return bookType.getConstructor().get();
+    }
 }
