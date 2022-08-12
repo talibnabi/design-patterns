@@ -1,4 +1,5 @@
 package creational.singleton.billPughSingleton;
 
-public class SingletonObjectWithStaticBlock {
+public final class SingletonObjectWithStaticBlock {
+
 }
