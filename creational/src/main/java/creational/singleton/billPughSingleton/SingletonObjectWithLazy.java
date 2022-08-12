@@ -16,4 +16,12 @@ public class SingletonObjectWithLazy {
             return INSTANCE;
         }
     }
+
+    public static SingletonHelperLazy getInstance() {
+        return SingletonHelperLazy.getInstance();
+    }
+
+    public static void main(String[] args) {
+        
+    }
 }

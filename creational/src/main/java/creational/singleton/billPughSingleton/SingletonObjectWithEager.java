@@ -9,7 +9,7 @@ public final class SingletonObjectWithEager {
     public static class SingletonHelperEager {
         private static final SingletonObjectWithEager INSTANCE = new SingletonObjectWithEager();
     }
-    
+
 
     public static SingletonObjectWithEager getInstance() {
         return SingletonHelperEager.INSTANCE;
