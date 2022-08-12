@@ -1,4 +1,4 @@
-package creational.factory.bestPractice;
+package creational.factory.bestPractice.factory;
 
 public interface Book {
     String getDescription();

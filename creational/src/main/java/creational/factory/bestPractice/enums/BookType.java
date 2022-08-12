@@ -1,4 +1,8 @@
-package creational.factory.bestPractice;
+package creational.factory.bestPractice.enums;
+
+import creational.factory.bestPractice.factory.Book;
+import creational.factory.bestPractice.factory.NewBook;
+import creational.factory.bestPractice.factory.OldBook;
 
 import java.util.function.Supplier;
 

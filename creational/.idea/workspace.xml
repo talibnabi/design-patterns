@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/BookFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/BookFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/BookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/NewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/NewBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/OldBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/OldBook.java" afterDir="false" />
     </list>
@@ -46,26 +45,13 @@
     "last_opened_file_path": "C:/Workspace/designpatterns/creational"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.creational.factory.simple.App">
+  <component name="RunManager" selected="Application.creational.factory.bestPractice.main.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.builder.bestPractice.main.App" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creational.builder.bestPractice.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.usingReflectionToDestroySingleton.ReflectionUsing" />
-      <module name="creational" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singleton.usingReflectionToDestroySingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.factory.bestPractice.main.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.bestPractice.main.App" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.bestPractice.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="creational.factory.simple.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.factory.simple.App" />
       <module name="creational" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.factory.bestPractice.main.App" />
         <item itemvalue="Application.creational.factory.simple.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.creational.builder.simple.Computer" />
         <item itemvalue="Application.SingletonObject" />
-        <item itemvalue="Application.ReflectionUsing" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="20104000" />
+      <workItem from="1660297281881" duration="20502000" />
     </task>
     <servers />
   </component>
