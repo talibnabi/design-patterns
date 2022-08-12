@@ -1,6 +1,10 @@
 package creational.singleton.billPughSingleton;
 
 public final class SingletonObjectWithStaticBlock {
+    private SingletonObjectWithStaticBlock() {
+
+    }
+
     public static final class SingletonHelperStatic {
         private static final SingletonObjectWithStaticBlock singletonObjectWithStaticBlock;
 
