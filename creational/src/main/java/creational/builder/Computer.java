@@ -4,14 +4,7 @@ public class Computer {
     private final String HDD;
     private final String RAM;
     private final boolean isGraphicsCardEnabled;
-    private final boolean isBluetoothEnabled;
-
-    private Computer(ComputerBuilder builder) {
-        this.HDD = builder.HDD;
-        this.RAM = builder.RAM;
-        this.isGraphicsCardEnabled = builder.isGraphicsCardEnabled;
-        this.isBluetoothEnabled = builder.isBluetoothEnabled;
-    }
+    private final boolean isBlueToothEnabled;
 
     public String getHDD() {
         return HDD;
@@ -25,20 +18,26 @@ public class Computer {
         return isGraphicsCardEnabled;
     }
 
-    public boolean isBluetoothEnabled() {
-        return isBluetoothEnabled;
+    public boolean isBlueToothEnabled() {
+        return isBlueToothEnabled;
+    }
+
+    private Computer(ComputerBuilder computerBuilder) {
+        this.HDD = computerBuilder.HDD;
+        this.RAM = computerBuilder.RAM;
+        this.isGraphicsCardEnabled = computerBuilder.isGraphicsCardEnabled;
+        this.isBlueToothEnabled = computerBuilder.isBlueToothEnabled;
     }
 
     public static class ComputerBuilder {
-
         private final String HDD;
         private final String RAM;
         private boolean isGraphicsCardEnabled;
-        private boolean isBluetoothEnabled;
+        private boolean isBlueToothEnabled;
 
-        public ComputerBuilder(String hdd, String ram) {
-            this.HDD = hdd;
-            this.RAM = ram;
+        public ComputerBuilder(String HDD, String RAM) {
+            this.HDD = HDD;
+            this.RAM = RAM;
         }
 
         public ComputerBuilder setGraphicsCardEnabled(boolean isGraphicsCardEnabled) {
@@ -46,8 +45,8 @@ public class Computer {
             return this;
         }
 
-        public ComputerBuilder setBluetoothEnabled(boolean isBluetoothEnabled) {
-            this.isBluetoothEnabled = isBluetoothEnabled;
+        public ComputerBuilder setBlueToothEnabled(boolean isBlueToothEnabled) {
+            this.isBlueToothEnabled = isBlueToothEnabled;
             return this;
         }
 
