@@ -1,4 +1,4 @@
 package creational.factory;
 
-public class Main {
+public class App {
 }
