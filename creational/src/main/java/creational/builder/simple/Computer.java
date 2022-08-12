@@ -1,6 +1,6 @@
 package creational.builder.simple;
 
-public class Computer {
+public final class Computer {
     private final String HDD;
     private final String RAM;
     private final boolean isGraphicsCardEnabled;
@@ -40,7 +40,7 @@ public class Computer {
                 '}';
     }
 
-    public static class ComputerBuilder {
+    public static final class ComputerBuilder {
         private final String HDD;
         private final String RAM;
         private boolean isGraphicsCardEnabled;
