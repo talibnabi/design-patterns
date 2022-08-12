@@ -14,6 +14,10 @@ public final class SingletonObject {
         return singletonObject;
     }
 
+    public static SingletonObject getInstanceUsingDoubleLocking(){
+        
+    }
+
     public static void main(String[] args) {
         SingletonObject singletonObject1 = SingletonObject.getInstance();
         SingletonObject singletonObject2 = SingletonObject.getInstance();
