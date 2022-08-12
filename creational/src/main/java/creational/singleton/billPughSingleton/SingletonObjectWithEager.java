@@ -2,6 +2,7 @@ package creational.singleton.billPughSingleton;
 
 public final class SingletonObjectWithEager {
 
+
     private SingletonObjectWithEager() {
 
     }
