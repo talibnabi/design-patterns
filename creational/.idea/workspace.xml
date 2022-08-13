@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Kia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Mercedes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simpleSecond/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +45,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/designpatterns/creational&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.creational.factory.bestPractice.main.App">
+  <component name="RunManager" selected="Application.creational.factory.simpleSecond.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.builder.bestPractice.main.App" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creational.builder.bestPractice.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singleton.enumSingleton.SingletonObject" />
-      <module name="creational" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singleton.enumSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.factory.simpleSecond.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.simpleSecond.App" />
+      <module name="creational" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factory.simpleSecond.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.factory.simpleSecond.App" />
         <item itemvalue="Application.creational.factory.bestPractice.main.App" />
         <item itemvalue="Application.creational.factory.simpleFirst.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.creational.builder.simple.Computer" />
-        <item itemvalue="Application.SingletonObject" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +131,7 @@
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
       <workItem from="1660297281881" duration="20847000" />
-      <workItem from="1660377958991" duration="1637000" />
+      <workItem from="1660377958991" duration="2576000" />
     </task>
     <servers />
   </component>

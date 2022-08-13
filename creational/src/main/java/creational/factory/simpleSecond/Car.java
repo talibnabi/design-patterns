@@ -7,4 +7,7 @@ public abstract class Car {
 
     public abstract String stop();
 
+    public String toString() {
+        return this.start() + " / " + this.speedUp() + " / " + this.stop();
+    }
 }
