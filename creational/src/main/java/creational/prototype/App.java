@@ -1,4 +1,4 @@
 package creational.prototype;
 
-public class Main {
+public class App {
 }
