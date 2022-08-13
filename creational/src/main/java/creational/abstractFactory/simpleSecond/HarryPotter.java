@@ -2,9 +2,9 @@ package creational.abstractFactory.simpleSecond;
 
 public class HarryPotter implements Book {
     private final String color;
-    private final String price;
+    private final Integer price;
 
-    public HarryPotter(String color, String price) {
+    public HarryPotter(String color, Integer price) {
         this.color = color;
         this.price = price;
     }
@@ -15,7 +15,7 @@ public class HarryPotter implements Book {
     }
 
     @Override
-    public String price() {
+    public Integer price() {
         return this.price;
     }
 }
