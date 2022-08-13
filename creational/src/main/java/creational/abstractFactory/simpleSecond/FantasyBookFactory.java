@@ -1,5 +1,4 @@
 package creational.abstractFactory.simpleSecond;
 
-public class App {
-
+public class FantasyBookFactory {
 }
