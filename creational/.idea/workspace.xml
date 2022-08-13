@@ -42,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/designpatterns/creational&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.creational.factory.simpleSecond.App">
+  <component name="RunManager" selected="Application.creational.abstractFactory.simpleFirst.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.builder.bestPractice.main.App" />
       <module name="creational" />
@@ -56,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.builder.simple.Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.simple.Computer" />
+    <configuration name="creational.abstractFactory.simpleFirst.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.simpleFirst.App" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.simple.*" />
+          <option name="PATTERN" value="creational.abstractFactory.simpleFirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.abstractFactory.simpleFirst.App" />
         <item itemvalue="Application.creational.factory.simpleSecond.App" />
         <item itemvalue="Application.creational.factory.bestPractice.main.App" />
         <item itemvalue="Application.creational.factory.simpleFirst.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.creational.builder.simple.Computer" />
       </list>
     </recent_temporary>
   </component>
