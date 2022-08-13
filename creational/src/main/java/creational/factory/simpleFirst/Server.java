@@ -1,4 +1,4 @@
-package creational.factory.simple;
+package creational.factory.simpleFirst;
 
 public class Server extends Computer {
     private final String ram;

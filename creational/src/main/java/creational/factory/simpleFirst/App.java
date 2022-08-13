@@ -1,4 +1,4 @@
-package creational.factory.simple;
+package creational.factory.simpleFirst;
 
 public class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package creational.factory.simple;
+package creational.factory.simpleFirst;
 
 public abstract class Computer {
     public abstract String getRAM();

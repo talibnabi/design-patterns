@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.factory.simple.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.simple.App" />
+    <configuration name="creational.factory.simpleFirst.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factory.simpleFirst.App" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.simple.*" />
+          <option name="PATTERN" value="creational.factory.simpleFirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +112,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.creational.factory.bestPractice.main.App" />
-        <item itemvalue="Application.creational.factory.simple.App" />
+        <item itemvalue="Application.creational.factory.simpleFirst.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.creational.builder.simple.Computer" />
         <item itemvalue="Application.SingletonObject" />
