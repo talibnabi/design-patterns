@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/NewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/NewBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/OldBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/bestPractice/OldBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factory/simple/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factory/simple/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Workspace/designpatterns/creational"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/designpatterns/creational&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.creational.factory.bestPractice.main.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.builder.bestPractice.main.App" />
@@ -130,7 +129,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660295170703</updated>
       <workItem from="1660295172914" duration="2000" />
-      <workItem from="1660297281881" duration="20502000" />
+      <workItem from="1660297281881" duration="20847000" />
+      <workItem from="1660377958991" duration="345000" />
     </task>
     <servers />
   </component>

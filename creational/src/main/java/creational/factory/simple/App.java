@@ -6,6 +6,5 @@ public class App {
         assert computer != null;
         System.out.println(computer.toString());
         //https://github.com/iluwatar/java-design-patterns/
-
     }
 }
