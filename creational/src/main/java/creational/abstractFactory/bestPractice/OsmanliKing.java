@@ -2,9 +2,9 @@ package creational.abstractFactory.bestPractice;
 
 public class OsmanliKing extends King {
     private final String kingName;
-    private final Integer kingAge;
+    private final String kingAge;
 
-    public OsmanliKing(String kingName, Integer kingAge) {
+    public OsmanliKing(String kingName, String kingAge) {
         this.kingName = kingName;
         this.kingAge = kingAge;
     }
@@ -15,7 +15,7 @@ public class OsmanliKing extends King {
     }
 
     @Override
-    public Integer getKingAge() {
+    public String getKingAge() {
         return this.kingAge;
     }
 }

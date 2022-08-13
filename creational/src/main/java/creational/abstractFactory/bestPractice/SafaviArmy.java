@@ -2,10 +2,10 @@ package creational.abstractFactory.bestPractice;
 
 public class SafaviArmy extends Army {
     private final String armyName;
-    private final Integer armyAge;
-    private final Integer armyPowerLevel;
+    private final String armyAge;
+    private final String armyPowerLevel;
 
-    public SafaviArmy(String armyName, Integer armyAge, Integer armyPowerLevel) {
+    public SafaviArmy(String armyName, String armyAge, String armyPowerLevel) {
         this.armyName = armyName;
         this.armyAge = armyAge;
         this.armyPowerLevel = armyPowerLevel;
@@ -17,12 +17,12 @@ public class SafaviArmy extends Army {
     }
 
     @Override
-    public Integer getArmyAge() {
+    public String getArmyAge() {
         return this.armyAge;
     }
 
     @Override
-    public Integer getArmyPowerLevel() {
+    public String getArmyPowerLevel() {
         return this.armyPowerLevel;
     }
 }

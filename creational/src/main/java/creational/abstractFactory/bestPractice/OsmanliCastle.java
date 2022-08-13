@@ -3,9 +3,9 @@ package creational.abstractFactory.bestPractice;
 public class OsmanliCastle extends Castle {
     private final String castleName;
     private final String castleLocation;
-    private final Integer castleAge;
+    private final String castleAge;
 
-    public OsmanliCastle(String castleName, String castleLocation, Integer castleAge) {
+    public OsmanliCastle(String castleName, String castleLocation, String castleAge) {
         this.castleName = castleName;
         this.castleLocation = castleLocation;
         this.castleAge = castleAge;
@@ -22,7 +22,7 @@ public class OsmanliCastle extends Castle {
     }
 
     @Override
-    public Integer getCastleAge() {
+    public String getCastleAge() {
         return this.castleAge;
     }
 }

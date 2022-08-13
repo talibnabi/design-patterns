@@ -7,16 +7,16 @@ public class SafaviKingdomFactory implements KingdomFactory {
 
     @Override
     public King createKing() {
-        return null;
+        return new SafaviKing(" King name: " + scanner.nextLine(), " King age: " + scanner.nextLine());
     }
 
     @Override
     public Castle createCastle() {
-        return null;
+        return new SafaviCastle(" Castle name: " + scanner.nextLine(), " Castle location: " + scanner.nextLine(), " Castle age: " + scanner.nextLine());
     }
 
     @Override
     public Army createArmy() {
-        return null;
+        return new SafaviArmy(" Army name: " + scanner.nextLine(), " Army age: " + scanner.nextLine(), " Army power level: " + scanner.nextLine());
     }
 }

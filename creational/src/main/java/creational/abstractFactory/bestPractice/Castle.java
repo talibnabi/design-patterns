@@ -5,10 +5,10 @@ public abstract class Castle {
 
     public abstract String getCastleLocation();
 
-    public abstract Integer getCastleAge();
+    public abstract String getCastleAge();
 
     @Override
     public String toString() {
-        return "Castle Name: " + this.getCastleName() + "/Castle Location: " + this.getCastleLocation() + "/Castle Age: " + this.getCastleAge();
+        return this.getCastleName() + this.getCastleLocation() + this.getCastleAge();
     }
 }

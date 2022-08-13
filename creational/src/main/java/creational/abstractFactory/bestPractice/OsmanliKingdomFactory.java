@@ -7,16 +7,16 @@ public class OsmanliKingdomFactory implements KingdomFactory {
 
     @Override
     public King createKing() {
-        return new OsmanliKing(scanner.nextLine(), scanner.nextInt());
+        return new OsmanliKing("King name: " + scanner.nextLine(), " King age: " + scanner.nextLine());
     }
 
     @Override
     public Castle createCastle() {
-        return new OsmanliCastle(scanner.nextLine(), scanner.nextLine(), scanner.nextInt());
+        return new OsmanliCastle("Castle name: " + scanner.nextLine(), " Castle location: " + scanner.nextLine(), " Castle age: " + scanner.nextLine());
     }
 
     @Override
     public Army createArmy() {
-        return new OsmanliArmy(scanner.nextLine(), scanner.nextInt(), scanner.nextInt());
+        return new OsmanliArmy(" Army name: " + scanner.nextLine(), " Army age: " + scanner.nextLine(), " Army power level: " + scanner.nextLine());
     }
 }
