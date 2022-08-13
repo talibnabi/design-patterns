@@ -1,7 +1,11 @@
 package creational.abstractFactory.simpleSecond;
 
-public interface Book {
-    String color();
+public abstract class Book {
+    public abstract String color();
 
-    Integer price();
+    public abstract Integer price();
+
+    public String toString() {
+        return "Color: " + this.color() + " / Price: " + this.price();
+    }
 }

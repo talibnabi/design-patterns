@@ -1,6 +1,6 @@
 package creational.abstractFactory.simpleSecond;
 
-public class NumberTheStars implements Book {
+public class NumberTheStars extends Book {
     private final String color;
     private final Integer price;
 

@@ -1,6 +1,6 @@
 package creational.abstractFactory.simpleSecond;
 
-public class PaleFire implements Book {
+public class PaleFire extends Book {
     private final String color;
     private final Integer price;
 
