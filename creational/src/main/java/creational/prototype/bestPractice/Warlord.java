@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 public abstract class Warlord implements Prototype {
+
     public Warlord(Warlord warlord) {
 
     }
