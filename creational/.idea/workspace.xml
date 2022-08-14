@@ -42,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Workspace/designpatterns/creational&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.creational.prototype.simple.App">
+  <component name="RunManager" selected="Application.creational.prototype.bestPractice.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.bestPractice.App" />
       <module name="creational" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.factory.simpleSecond.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factory.simpleSecond.App" />
+    <configuration name="creational.prototype.bestPractice.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype.bestPractice.App" />
       <module name="creational" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.factory.simpleSecond.*" />
+          <option name="PATTERN" value="creational.prototype.bestPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.prototype.bestPractice.App" />
         <item itemvalue="Application.creational.prototype.simple.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.creational.abstractFactory.simpleSecond.App" />
         <item itemvalue="Application.creational.abstractFactory.simpleFirst.App" />
-        <item itemvalue="Application.creational.factory.simpleSecond.App" />
       </list>
     </recent_temporary>
   </component>
