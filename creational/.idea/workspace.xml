@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcfc04e-c3ed-4fe4-86ab-4cfcd0674dd7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/bestPractice/Beast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/bestPractice/Beast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/bestPractice/ElfBeast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/prototype/bestPractice/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/bestPractice/Mage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,7 @@
       <workItem from="1660297281881" duration="20847000" />
       <workItem from="1660377958991" duration="15100000" />
       <workItem from="1660414024040" duration="501000" />
-      <workItem from="1660478330663" duration="1003000" />
+      <workItem from="1660478330663" duration="1325000" />
     </task>
     <servers />
   </component>
