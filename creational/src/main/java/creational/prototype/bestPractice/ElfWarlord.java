@@ -1,5 +1,10 @@
 package creational.prototype.bestPractice;
 
+import lombok.EqualsAndHashCode;
+import lombok.RequiredArgsConstructor;
+
+@EqualsAndHashCode(callSuper = true)
+@RequiredArgsConstructor
 public class ElfWarlord extends Warlord {
     private final String helpType;
 

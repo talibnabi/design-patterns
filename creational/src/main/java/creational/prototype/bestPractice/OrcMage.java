@@ -1,5 +1,10 @@
 package creational.prototype.bestPractice;
 
+import lombok.EqualsAndHashCode;
+import lombok.RequiredArgsConstructor;
+
+@EqualsAndHashCode(callSuper = true)
+@RequiredArgsConstructor
 public class OrcMage extends Mage {
     private final String weapon;
 
